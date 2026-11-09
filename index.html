@@ -168,7 +168,7 @@ tr:last-child td{border-bottom:0}
   <aside class="sidebar">
     <div class="brand">DCWC Planner<small>隊伍・抽卡・裝備・燈系發展</small></div>
     <div class="palette" aria-label="color palette"><i></i><i></i><i></i><i></i><i></i></div>
-    <div class="update">更新：2026-10-16<br>UI 重整＋燈系規劃擴充</div>
+    <div class="update">更新：2026-11-09<br>新增 Nightwing・Block 路線啟動</div>
     <nav class="nav">
       <a href="#overview">總覽</a>
       <a href="#lanterns">燈系規劃</a>
@@ -195,7 +195,7 @@ tr:last-child td{border-bottom:0}
     </section>
 
     <div class="stats">
-      <div class="stat"><strong>32</strong><span>目前持有角色</span></div>
+      <div class="stat"><strong>33</strong><span>目前持有角色</span></div>
       <div class="stat"><strong>2 + 4</strong><span>燈系：2 已持有＋4 主要目標</span></div>
       <div class="stat"><strong>4 / 5</strong><span>Sinestro Debuff 隊已備妥四個位置</span></div>
       <div class="stat"><strong>高 → 中</strong><span>燈系依可用度分級，不低於中等可投資</span></div>
@@ -220,17 +220,17 @@ tr:last-child td{border-bottom:0}
           <p class="sub">一般推圖先用獨立戰力高、功能完整的角色；遇到特定機制再切專隊。</p>
         </article>
 
-        <article class="card">
-          <span class="status owned">現在可用</span>
-          <h3>Batman 單體</h3>
+        <article class="card accent">
+          <span class="status owned">新啟動</span>
+          <h3>Block／Nightwing 核心</h3>
           <div class="team">
-            <div class="slot have">John Stewart</div>
-            <div class="slot have">Batman</div>
-            <div class="slot have">Robin</div>
-            <div class="slot have">Red Hood</div>
-            <div class="slot have">Kid Flash</div>
+            <div class="slot have">Nightwing<small>Tank／Block</small></div>
+            <div class="slot have">Nubia<small>Block 拼圖</small></div>
+            <div class="slot have">Cheshire<small>DPS</small></div>
+            <div class="slot have">Kid Flash<small>續航</small></div>
+            <div class="slot flex">Flex<small>暫用 Raven／John</small></div>
           </div>
-          <p class="sub">Single-target 過渡隊。未來優先加入 Armor Break／Fragile／Debuff 拼圖，而不是只湊 Bat-family。</p>
+          <p class="sub">Nightwing 入手後 Block 路線正式啟動，但目前仍是過渡版；下一個最重要拼圖是 Ocean Master。近期完整 Block／Poison-Block 隊仍以 Nightwing + Ocean Master 為核心。</p>
         </article>
 
         <article class="card">
@@ -387,17 +387,17 @@ tr:last-child td{border-bottom:0}
         </div>
       </details>
 
-      <details class="team-fold">
-        <summary>Block／Nightwing</summary>
+      <details class="team-fold" open>
+        <summary>Block／Nightwing｜已啟動</summary>
         <div class="inner">
           <div class="team">
-            <div class="slot miss">Nightwing</div>
-            <div class="slot miss">Ocean Master</div>
-            <div class="slot have">Cheshire</div>
-            <div class="slot have">Nubia</div>
-            <div class="slot have">Kid Flash</div>
+            <div class="slot have">Nightwing<small>已持有｜核心 Tank</small></div>
+            <div class="slot miss">Ocean Master<small>未持有｜最優先補</small></div>
+            <div class="slot have">Cheshire<small>DPS</small></div>
+            <div class="slot have">Nubia<small>Block 拼圖</small></div>
+            <div class="slot have">Kid Flash<small>暫用續航</small></div>
           </div>
-          <p>Nightwing + Ocean Master 仍是最重要的兩塊拼圖。這條線保留，因為你本來就偏好 Nightwing。</p>
+          <p><b>現在可以開始投資 Nightwing。</b>近期隊伍資料仍把他列為 Block 核心；Ocean Master 是下一個最重要的補強。長期可走純 Block（Nightwing + Nubia + Ocean Master…）或 Poison/Block（Nightwing + Ocean Master + Cheshire + Swamp Thing／Penguin）。</p>
         </div>
       </details>
 
@@ -430,6 +430,7 @@ tr:last-child td{border-bottom:0}
               <tr><th>角色</th><th>建議套裝</th><th>用途</th><th>狀態</th></tr>
               <tr><td>Wonder Woman</td><td>4 Crit + 2 ATK</td><td>Crit／AoE 輸出</td><td><span class="verify ok">已核實</span></td></tr>
               <tr><td>Kid Flash</td><td>4 ATK + 2 HP</td><td>治療量＋生存</td><td><span class="verify ok">已核實</span></td></tr>
+              <tr><td>Nightwing</td><td>4 Block + 2 HP</td><td>核心 Tank；副屬性優先 HP Bonus、Block、Defense Bonus、Crit Res</td><td><span class="verify ok">已核實</span></td></tr>
               <tr><td>Nubia</td><td>4 Block + 2 ATK</td><td>格擋／反擊方向</td><td><span class="verify temp">沿用</span></td></tr>
               <tr><td>Starfire</td><td>4 Crit + 2 SPD</td><td>Burn 輸出／行動頻率</td><td><span class="verify temp">沿用</span></td></tr>
               <tr><td>Superboy</td><td>4 ATK + 2 SPD</td><td>Burn 輸出／功能</td><td><span class="verify temp">暫定</span></td></tr>
@@ -474,7 +475,8 @@ tr:last-child td{border-bottom:0}
         <div class="p-rank">S</div><div><b>Hal Jordan</b></div><div>最明確的 GL 長期目標；你已有 John + Guy，且可延伸 Mr. Terrific Superpower。</div>
         <div class="p-rank">A+</div><div><b>Sinestro</b></div><div>你已持有 Batman + Raven + John，抽到就能立即成隊；同時支援 Debuff 與 Superpower。</div>
         <div class="p-rank">A</div><div><b>Firestorm</b></div><div>同時補 Burn 與 Mr. Terrific，仍然是非燈系最有效率的補強之一。</div>
-        <div class="p-rank">A</div><div><b>Nightwing + Ocean Master</b></div><div>Block 路線核心，且 Nightwing 本身是偏好角色。</div>
+        <div class="p-rank">A+／已持有</div><div><b>Nightwing</b></div><div>現在可直接投入：Epic Tank、Block／控制核心，且近期仍是 A+ 實戰角色。裝備先以 4 Block + 2 HP 為主。</div>
+        <div class="p-rank">A+</div><div><b>Ocean Master</b></div><div>Nightwing 已到手後，Ocean Master 成為 Block 路線最直接的下一個核心補強。</div>
         <div class="p-rank">A</div><div><b>Green Arrow / Zatanna</b></div><div>強化 Wonder Woman Crit，也能讓未來 White Lantern Kyle 更好發揮。</div>
         <div class="p-rank">A</div><div><b>Swamp Thing / Doctor Poison</b></div><div>補齊 Cheshire Poison。</div>
         <div class="p-rank">M</div><div><b>Star Sapphire Carol</b></div><div>至少中等可投資：有 Heal 隊用途，且符合燈系喜好；順位低於 Kyle／Hal／Sinestro。</div>
@@ -494,7 +496,7 @@ tr:last-child td{border-bottom:0}
         </article>
         <article class="card">
           <h3>Epic</h3>
-          <p>✓ Batman<br>✓ Superboy<br>✓ Red Hood<br>✓ Robin<br>✓ Starfire<br>✓ Green Lantern — John Stewart<br>✓ Kid Flash<br>✓ Mr. Terrific<br>✓ Bizarro<br>✓ Cheshire<br>✓ Hugo Strange<br>✓ Judomaster<br>✓ Guy Gardner（DCU）<br>✓ Raven</p>
+          <p>✓ Batman<br>✓ Superboy<br>✓ Red Hood<br>✓ Robin<br>✓ Starfire<br>✓ Green Lantern — John Stewart<br>✓ Kid Flash<br>✓ Mr. Terrific<br>✓ Bizarro<br>✓ Cheshire<br>✓ Hugo Strange<br>✓ Judomaster<br>✓ Guy Gardner（DCU）<br>✓ Raven<br>✓ Nightwing</p>
         </article>
         <article class="card">
           <h3>Elite</h3>
@@ -520,6 +522,9 @@ tr:last-child td{border-bottom:0}
         <article class="card">
           <h3>本次主要參考</h3>
           <div class="source-list">
+            <a href="https://dcworldscollidegame.com/roster/nightwing">官方：Nightwing 角色技能與定位</a>
+            <a href="https://www.allclash.com/the-best-teams-in-dc-worlds-collide-all-modes-f2p-to-meta-spender/">2026-11：Block／Poison-Block 隊伍參考</a>
+            <a href="https://www.allclash.com/best-build-for-nightwing-in-dc-worlds-collide-gear-sets-stats-emblem-artifact/">2026-09：Nightwing Gear Build</a>
             <a href="https://news.dcworldscollidegame.com/latest-news/recruit-sinestro/">官方：Sinestro Debuff 組隊說明</a>
             <a href="https://dcworldscollidegame.com/roster/starsapphire-carol">官方：Star Sapphire Carol 技能</a>
             <a href="https://www.allclash.com/best-build-for-white-lantern-kyle-in-dc-worlds-collide-gear-sets-stats-emblem-artifact/">AllClash：White Lantern Kyle 2026 配裝</a>
@@ -530,7 +535,7 @@ tr:last-child td{border-bottom:0}
           </div>
         </article>
       </div>
-      <div class="footer">版本：2026-10-16｜Meta 與裝備建議會隨平衡更新調整。</div>
+      <div class="footer">版本：2026-11-09｜Meta 與裝備建議會隨平衡更新調整。</div>
     </section>
   </main>
 </div>
